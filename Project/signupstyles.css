@@ -43,6 +43,9 @@ select{
 	background: rgba(0,0,0,0.10);
 	color:#fff;
 }
+option{
+	color: black;
+}
 a{
 	margin-top:10px;
 	color:#4758E1;
