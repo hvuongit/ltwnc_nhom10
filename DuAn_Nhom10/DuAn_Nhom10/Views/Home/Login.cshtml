@@ -4,10 +4,10 @@
 
 @Styles.Render("~/Content/login.css")
 @Scripts.Render("~/Scripts/login.js")
-<div class="container center-block" style="width:70%">
+<div class="container-fluid center-block" style="max-width:70%">
     <div class="row">
-        <div class="col-md-7 col-left">
-            <div class="select">Đăng nhập</div>
+        <div class="col-md-7 col-left" >
+            <div class="select login">Đăng nhập</div>
             <div style="padding:0px 50px 0px 50px">
                 <label class="label control-label">Tên tài khoản</label>
                 <input type="text" class="form-control" name="user" />
@@ -19,9 +19,9 @@
             </div>
         </div>
         <div class="col-md-1 col-mid">
-            <a href="#" style="text-decoration:none"><div class="btn-mid">◀</div></a>
+            <a href="#" style="text-decoration:none"><div class="btn-mid">►</div></a>
         </div>
-        <div class="col-md-4 col-right">
+        <div class="col-md-4 col-right" style="display:none">
             <div class="login-MXH">
                 <a href="#" style="text-decoration:none">
                     <div class="login-fb">

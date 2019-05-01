@@ -1,16 +1,35 @@
 ﻿$(document).ready(function () {
-    $(".btn-mid").click(function () {
-        $(".col-right").fadeOut("slow");
-        $(".btn-mid").toggleClass("btn-mid-new");
-        $(".btn-mid-new").removeClass("btn-mid");
-        $(".btn-mid-new").text("►");
+    $(".btn-info").css({
+        "width": "70%",
+        "margin-left": "0px"
     });
-});
-$(document).ready(function () {
-    $(".btn-mid-new").click(function () {
-        $(".col-right").fadeIn("slow");
-        $(".btn-mid-new").toggleClass("btn-mid");
-        $(".btn-mid").removeClass("btn-mid-new");
-        $(".btn-mid").text("◀");
+    $(".container-fluid").css("max-width", "60%");
+    $(".col-left").css("width", "85%");
+    $(".btn-mid").text("►");
+    $(".login").css("width", "85%");
+    $(".btn-mid").css("padding", "3px 3px 3px 6px");
+
+    $(".btn-mid").click(function () {
+        $(".col-right").fadeToggle("fast", function () {
+            if ($(".col-right").is(":visible")) {
+                $(".col-left").removeAttr("style");
+                $(".btn-info").removeAttr("style");
+                $(".login").removeAttr("style");
+                $(".container-fluid").css("max-width", "70%");
+                $(".btn-mid").text("◀");
+                $(".btn-mid").css("padding", "3px 6px 3px 3px");
+            }
+            else {
+                $(".btn-info").css({
+                    "width": "70%",
+                    "margin-left": "0px"
+                });
+                $(".container-fluid").css("max-width", "60%");
+                $(".col-left").css("width", "85%");
+                $(".btn-mid").text("►");
+                $(".login").css("width", "85%");
+                $(".btn-mid").css("padding", "3px 3px 3px 6px");
+            }
+        }); 
     });
 });
