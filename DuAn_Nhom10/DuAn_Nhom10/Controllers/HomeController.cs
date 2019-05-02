@@ -22,5 +22,11 @@ namespace DuAn_Nhom10.Controllers
         {
             return View();   
         }
+
+        public ActionResult Register()
+        {
+            return View();
+        }
+        
     }
 }

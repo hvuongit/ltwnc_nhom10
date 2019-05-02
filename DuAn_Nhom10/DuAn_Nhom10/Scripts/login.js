@@ -1,9 +1,9 @@
 ﻿$(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
-    $(".btn-info").css({
-        "width": "70%",
-        "margin-left": "0px"
-    });
+    //$(".btn-info").css({
+    //    "width": "70%",
+    //    "margin-left": "0px"
+    //});
     $(".container-fluid").css("max-width", "60%");
     $(".col-left").css("width", "85%");
     $(".btn-mid").text("►");
@@ -22,7 +22,7 @@
             }
             else {
                 $(".btn-info").css({
-                    "width": "70%",
+                    "width": "90%",
                     "margin-left": "0px"
                 });
                 $(".container-fluid").css("max-width", "60%");
