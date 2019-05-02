@@ -1,4 +1,5 @@
 ﻿$(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
     $(".btn-info").css({
         "width": "70%",
         "margin-left": "0px"
