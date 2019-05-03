@@ -253,7 +253,7 @@ p{
     }
     .btn-info{
         font-size:18px;
-        width:100%;
+        width:90%;
         
     }
 
@@ -317,34 +317,3 @@ p{
         font-size: 0px;
     }
 }
-
-/*@media (max-width: 555px){
-    .login-MXH{
-        width:200px;
-    }
-    .fb-icon {
-        border-right: none;
-    }
-    .login-fb {
-        padding: 2px;
-        width: 35px;
-        margin: 0px;
-    }
-    .gg-icon{
-        border-right:none;
-    }
-    .login-gg {
-        padding: 2px;
-        width: 35px;
-        margin: 0px;
-        
-    }
-    .zl-icon{
-        border-right:none;
-    }
-    .login-zl {
-        padding: 2px;
-        width: 35px;
-        margin: 0px;
-    }
-}*/
