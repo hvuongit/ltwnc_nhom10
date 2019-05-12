@@ -1,44 +1,80 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="180183226226-mv53nrf5hntfia3fspaa4131rf5nule0.apps.googleusercontent.com">
 @Styles.Render("~/Content/login.css")
-@Scripts.Render("~/Scripts/login.js")
+
+
+
 <div class="container-fluid center-block" style="max-width:70%">
     <div class="row">
-        <div class="col-md-7 col-left" >
-            <div class="select login">Đăng nhập</div>
-            <div class="form-lgin">
-                <label class="label control-label">Tên tài khoản</label>
-                <input type="text" class="form-control" name="user" />
-                <label class="label control-label">Mật khẩu</label>
-                <input type="text" class="form-control" name="password" />
-                <input type="checkbox"><small class="remember"> Nhớ mật khẩu?<br /></small>
-                <a href="#" style="text-decoration:none"><div class="btn btn-info center-block"><b>ĐĂNG NHẬP</b></div></a>
-                <p class="forget"> Quên mật khẩu?</p>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs">
+            <li class="nav-item active">
+                <a class="nav-link active lg1 " data-toggle="tab" href="#login" style="margin:0px">Đăng nhập</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link lg2 " data-toggle="tab" href="#register">Đăng ký</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="login">
+                <div class="col-md-7 col-left">
+                    <div class="form-lgin">
+                        <label class="label control-label">Tên tài khoản</label>
+                        <input type="text" class="form-control" name="user" autofocus />
+                        <label class="label control-label">Mật khẩu</label>
+                        <input type="password" class="form-control" name="password" />
+                        <input type="checkbox"><small class="remember"> Nhớ mật khẩu?<br /></small>
+                        <a href="#" style="text-decoration:none"><div class="btn btn-info center-block"><b>ĐĂNG NHẬP</b></div></a>
+                        <p class="forget"> Quên mật khẩu?</p>
+                    </div>
+                </div>
+                <div class="col-md-1 col-mid">
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Tùy chọn đăng nhập!" style="text-decoration:none"><div class="btn-mid">►</div></a>
+                </div>
+                <div class="col-md-4 col-right">
+                    <div class="login-MXH">
+                        <a href="#" style="text-decoration:none">
+                            <div class="login-fb">
+                                <img src="~/Images/facebook.png" class="fb-icon" /><b>Đăng nhập bằng Facebook</b>
+                            </div>
+                        </a>
+                        <a href="#" style="text-decoration:none">
+                            <div class="g-signin2" data-onsuccess="onSignIn" style="margin-top:10px" data-longtitle="true">
+                                @*<img src="~/Images/google.png" class="fb-icon" /><b>Đăng nhập bằng Google</b>*@
+                            </div>
+                        </a>
+                        <a href="#" style="text-decoration:none">
+                            <div class="login-zl">
+                                <img src="~/Images/zalo.png" class="fb-icon" /><b>Đăng nhập bằng Zalo</b>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="col-md-1 col-mid">
-            <a href="#" data-toggle="tooltip" data-placement="right" title="Tùy chọn đăng nhập!" style="text-decoration:none"><div class="btn-mid">►</div></a>
-        </div>
-        <div class="col-md-4 col-right">
-            <div class="login-MXH">
-                <a href="#" style="text-decoration:none">
-                    <div class="login-fb">
-                        <img src="~/Images/facebook.png" class="fb-icon" /><b>Đăng nhập bằng Facebook</b>
-                    </div>
-                </a>
-                <a href="#" style="text-decoration:none">
-                    <div class="login-gg">
-                        <img src="~/Images/google.png" class="fb-icon" /><b>Đăng nhập bằng Google</b>
-                    </div>
-                </a>
-                <a href="#" style="text-decoration:none">
-                    <div class="login-zl">
-                        <img src="~/Images/zalo.png" class="fb-icon" /><b>Đăng nhập bằng Zalo</b>
-                    </div>
-                </a>
+            @*Tab Register*@
+            <div class="tab-pane" id="register">
+                <div class="col-md-1">
+
+                </div>
+                <div class="col-md-2">
+                    <label class="label control-label e-row-reg">Họ tên:</label>
+                    <label class="label control-label e-row-reg">Email:</label>
+                    <label class="label control-label e-row-reg">Mật khẩu:</label>
+                </div>
+                <div class="col-md-9 form-lgin">
+                    <input type="text" class="form-control" name="nameUser" autofocus placeholder="Nhập họ tên" />
+                    <input type="text" class="form-control" name="emailUser" placeholder="Nhập email" />
+                    <input type="password" class="form-control" name="pwUser" placeholder="Nhập mật khẩu" />
+                    <input type="password" class="form-control" name="re-pwUser" placeholder="Nhập lại mật khẩu" />
+                    <a href="#" style="text-decoration:none"><div class="btn btn-reg center-block"><b>ĐĂNG KÝ</b></div></a>
+                </div>
+
             </div>
         </div>
     </div>
 </div>
+@Scripts.Render("~/Scripts/login.js")
