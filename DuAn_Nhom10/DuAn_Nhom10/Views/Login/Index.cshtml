@@ -1,0 +1,61 @@
+﻿@model DuAn_Nhom10.Models.LoginModel
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Styles.Render("~/Content/login.css")
+@Scripts.Render("~/Scripts/login.js")
+
+<div class="container-fluid center-block" style="max-width:70%">
+    <div class="row">
+        <div class="col-md-7 col-left">
+            <div class="select login">Đăng nhập</div>
+            <div class="form-lgin">
+                @using (@Html.BeginForm("Login", "Login", FormMethod.Post, new { @class = "login100-form validate-form", @id = "formDemo" }))
+                {
+
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                    <label class="label control-label">Tên tài khoản</label>
+                    @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", @placeholder = "UserName", @name = "userName", required = "required" })
+
+                    <label class="label control-label">Mật khẩu</label><label id="checkMK"></label>
+                    @Html.PasswordFor(model => model.PassWord, new { @class = "form-control", @placeholder = "Password", @name = "passWord", required = "required" })
+
+
+                    @Html.CheckBoxFor(model => model.RememberMe, new { @class = "custom-control-input", @id = "customCheck" })
+                    <small class="remember"> Nhớ mật khẩu?<br /></small>
+                    <input type="submit" class="btn btn-info center-block" value="Đăng nhập" />
+                    <p class="forget"> Quên mật khẩu?</p>
+                    <hr>
+
+                }
+
+
+            </div>
+        </div>
+        <div class="col-md-1 col-mid">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Tùy chọn đăng nhập!" style="text-decoration:none"><div class="btn-mid">►</div></a>
+        </div>
+        <div class="col-md-4 col-right">
+            <div class="login-MXH">
+                <a href="/User/LoginFacebook" style="text-decoration:none">
+                    <div class="login-fb">
+                        <img src="~/Images/facebook.png" class="fb-icon" /><b>Đăng nhập bằng Facebook</b>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration:none">
+                    <div class="login-gg">
+                        <img src="~/Images/google.png" class="fb-icon" /><b>Đăng nhập bằng Google</b>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration:none">
+                    <div class="login-zl">
+                        <img src="~/Images/zalo.png" class="fb-icon" /><b>Đăng nhập bằng Zalo</b>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -10,7 +10,7 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-   
+
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -25,8 +25,8 @@
                 <ul class="nav navbar-nav la-navbar">
                     <li class="la-item">@Html.ActionLink("Trang chủ", "Index", "Home")</li>
                     <li class="la-item">@Html.ActionLink("Liên Hệ", "Contact", "Home")</li>
-                    <li class="la-item">@Html.ActionLink("Đăng Nhập","Login", "User")</li>
-                    <li style="margin: 5px 0 5px 0">@Html.ActionLink("Đăng Ký", "Register","Home")</li>
+                    <li class="la-item">@Html.ActionLink("Đăng Nhập", "Login", "Login")</li>
+                    <li style="margin: 5px 0 5px 0">@Html.ActionLink("Đăng Ký", "Register", "Home")</li>
                 </ul>
             </div>
         </div>
@@ -41,6 +41,9 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+
     @RenderSection("scripts", required: false)
+    <script src="~/Scripts/CheckLogin.js"></script>
+
 </body>
 </html>

@@ -200,10 +200,15 @@ E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\r
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\roslyn\VBCSCompiler.exe
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\roslyn\VBCSCompiler.exe.config
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Antlr3.Runtime.dll
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\EntityFramework.dll
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\EntityFramework.SqlServer.dll
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Facebook.dll
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Microsoft.Web.Infrastructure.dll
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Model.dll
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Newtonsoft.Json.dll
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\PagedList.dll
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\PagedList.Mvc.dll
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\System.Web.Helpers.dll
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\System.Web.Mvc.dll
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\System.Web.Optimization.dll
@@ -212,7 +217,13 @@ E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\S
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\System.Web.WebPages.dll
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\System.Web.WebPages.Razor.dll
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\WebGrease.dll
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Model.pdb
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Model.dll.config
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\EntityFramework.xml
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\EntityFramework.SqlServer.xml
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Facebook.xml
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\PagedList.xml
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\PagedList.Mvc.xml
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\System.Web.Helpers.xml
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\System.Web.Mvc.xml
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\System.Web.Optimization.xml
@@ -223,6 +234,7 @@ E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\S
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Newtonsoft.Json.xml
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Antlr3.Runtime.pdb
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\obj\Debug\DuAn_Nhom10.csprojAssemblyReference.cache
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\obj\Debug\DuAn_Nhom10.csproj.CoreCompileInputs.cache
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\obj\Debug\DuAn_Nhom10.csproj.CopyComplete
 E:\Studies\LapTrinhWebNangCao\Project\ltwnc_nhom10\DuAn_Nhom10\DuAn_Nhom10\obj\Debug\DuAn_Nhom10.dll

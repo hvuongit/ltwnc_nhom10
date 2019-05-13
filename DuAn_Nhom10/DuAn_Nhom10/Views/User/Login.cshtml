@@ -7,18 +7,22 @@
 
 @Styles.Render("~/Content/login.css")
 @Scripts.Render("~/Scripts/login.js")
+
 <div class="container-fluid center-block" style="max-width:70%">
     <div class="row">
         <div class="col-md-7 col-left">
             <div class="select login">Đăng nhập</div>
             <div class="form-lgin">
-                <label class="label control-label">Tên tài khoản</label>
-                <input type="text" class="form-control" name="user" />
-                <label class="label control-label">Mật khẩu</label>
-                <input type="text" class="form-control" name="password" />
-                <input type="checkbox"><small class="remember"> Nhớ mật khẩu?<br /></small>
-                <a href="#" style="text-decoration:none"><div class="btn btn-info center-block"><b>ĐĂNG NHẬP</b></div></a>
-                <p class="forget"> Quên mật khẩu?</p>
+                <form class="login100-form validate-form" action="" method="post" id="formDemo">
+                    <label class="label control-label">Tên tài khoản</label>
+                    <input type="text" class="form-control" name="user" id="userName" required/>
+                    <label class="label control-label">Mật khẩu</label><label id="checkMK"></label>
+                    <input type="text" class="form-control" name="password" id="passWord" required/>
+                    <input type="checkbox"><small class="remember"> Nhớ mật khẩu?<br /></small>
+                    <input type="submit" class="btn btn-info center-block" value="Đăng nhập" />
+                    <p class="forget"> Quên mật khẩu?</p>
+                </form>
+
             </div>
         </div>
         <div class="col-md-1 col-mid">
