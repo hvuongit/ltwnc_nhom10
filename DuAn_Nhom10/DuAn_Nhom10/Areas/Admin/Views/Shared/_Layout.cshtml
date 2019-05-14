@@ -34,8 +34,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="navbar-header">
-               
-                @Html.ActionLink("Admin", "Index", "Home", new { }, new { @class = "navbar-brand" })
+                <a class="navbar-brand" href="/Admin/Home/Index"><i class="fa fa-user fa-fw"></i>Admin</a>
             </div>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -44,8 +43,7 @@
                 <span class="icon-bar"></span>
             </button>
             <ul class="nav navbar-nav navbar-left navbar-top-links">
-                <li> @Html.ActionLink("Trang chủ", "Index", "Home", new { Area = "" }, new { })
-                </li>
+                <li><a href="/Home/Index"><i class="fa fa-home fa-fw"></i> Website</a></li>
             </ul>
             <ul class="nav navbar-right navbar-top-links">
                 <li class="dropdown navbar-inverse">
@@ -136,16 +134,16 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                           @Html.ActionLink("Admin", "Index", "Home", new { }, new { })
+                            <a href="/Admin/Home/Index" class="active"><i class="fa fa-user fa-fw"></i>Admin - Trang chủ</a>
                         </li>
                         <li>
-                            @Html.ActionLink("+ Quản lí tài khoản", "Index", "User",new { }, new { })
+                            <a href="/Admin/User/Index" class="active"><i class="fa fa-users fa-fw"></i>Quản lí người dùng<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    @Html.ActionLink("- Danh sách tài khoản", "Index", "User", new { }, new { })
+                                    <a href="/Admin/User/Index" class="active"><i class="fa fa-list-alt fa-fw"></i>Danh sách người dùng</a>
                                 </li>
                                 <li>
-                                    @Html.ActionLink("- Thêm mới tài khoản", "Index", "User", new { }, new { })
+                                    <a href="/Admin/User/Create" class="active"><i class="fa fa-user-plus fa-fw"></i>Thêm mới người dùng</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -247,9 +245,7 @@
     <!-- Metis Menu Plugin JavaScript -->
     <script src="~/Assest/Admin/js/metisMenu.min.js"></script>
     <!-- Morris Charts JavaScript -->
-    <script src="~/Assest/Admin/js/raphael.min.js"></script>
-    <script src="~/Assest/Admin/js/morris.min.js"></script>
-    <script src="~/Assest/Admin/js/morris-data.js"></script>
+    
 
 
     <!-- Custom Theme JavaScript -->
