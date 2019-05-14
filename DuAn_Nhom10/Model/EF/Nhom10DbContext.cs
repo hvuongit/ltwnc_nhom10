@@ -8,7 +8,7 @@ namespace Model.EF
     public partial class Nhom10DbContext : DbContext
     {
         public Nhom10DbContext()
-            : base("name=Nhom10DbContext")
+            : base("name=Nhom10DbContext1")
         {
         }
 

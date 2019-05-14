@@ -151,6 +151,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\Permission.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +168,7 @@
     <Content Include="Assest\Admin\fonts\fontawesome-webfont.svg" />
     <Content Include="Assest\Admin\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Assest\Admin\js\bootstrap.min.js" />
+    <Content Include="Assest\Admin\js\CheckForm.js" />
     <Content Include="Assest\Admin\js\dataTables\dataTables.bootstrap.min.js" />
     <Content Include="Assest\Admin\js\dataTables\jquery.dataTables.min.js" />
     <Content Include="Assest\Admin\js\flot-data.js" />
@@ -227,6 +229,7 @@
     <Content Include="Areas\Admin\Views\User\Create.cshtml" />
     <Content Include="Areas\Admin\Views\User\Index.cshtml" />
     <Content Include="Scripts\CheckLogin.js" />
+    <Content Include="Areas\Admin\Views\User\Edit.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
