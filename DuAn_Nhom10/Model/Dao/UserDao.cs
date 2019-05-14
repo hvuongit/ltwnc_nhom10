@@ -28,6 +28,7 @@ namespace Model.Dao
         //thêm mới
         public long Insert(User user)
         {
+            user.CreatedDate = DateTime.Now;
             db.Users.Add(user);
             db.SaveChanges();
             return user.ID;
