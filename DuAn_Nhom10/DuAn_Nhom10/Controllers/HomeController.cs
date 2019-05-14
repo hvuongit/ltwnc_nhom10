@@ -27,6 +27,9 @@ namespace DuAn_Nhom10.Controllers
         {
             return View();
         }
-        
+        public ActionResult LoginFacebook()
+        {
+            return View();
+        }
     }
 }
