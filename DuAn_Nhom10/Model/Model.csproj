@@ -56,8 +56,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dao\PerDao.cs" />
     <Compile Include="Dao\UserDao.cs" />
     <Compile Include="EF\Nhom10DbContext.cs" />
+    <Compile Include="EF\Permistion.cs" />
     <Compile Include="EF\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

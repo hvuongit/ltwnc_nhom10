@@ -101,6 +101,7 @@ namespace Model.Dao
                 user.Address = entity.Address;
                 user.Email = entity.Email;
                 user.Phone = entity.Phone;
+                user.Permission = entity.Permission;
                 user.ModifiedBy = entity.ModifiedBy;
                 user.ModifiedDate = entity.ModifiedDate;
                 db.SaveChanges();

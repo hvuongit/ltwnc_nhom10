@@ -24,6 +24,7 @@ namespace DuAn_Nhom10.Areas.Admin.Controllers
         [HttpGet]
         public ActionResult Create()
         {
+            SetViewBag();
             return View();
         }
         [HttpPost]
@@ -47,7 +48,7 @@ namespace DuAn_Nhom10.Areas.Admin.Controllers
             }
             
             var model = dao.ListAllPaging(1, 10);
-            
+            SetViewBag();
             return View("Index",model);
 
 
@@ -65,6 +66,9 @@ namespace DuAn_Nhom10.Areas.Admin.Controllers
         }
         public ActionResult Edit(int id)
         {
+            var result = new UserDao().GetByID(id);
+
+            SetViewBag(result.ID);
             var user = new UserDao().GetByID(id);
 
             return View(user);
@@ -92,6 +96,11 @@ namespace DuAn_Nhom10.Areas.Admin.Controllers
             }
 
             return View("Edit");
+        }
+        public void SetViewBag(long? selectedID=null)
+        {
+            var dao = new PerDao();
+            ViewBag.Permission = new SelectList(dao.listAll(),"ID","Description",selectedID);
         }
 
     }

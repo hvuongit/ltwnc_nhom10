@@ -8,10 +8,11 @@ namespace Model.EF
     public partial class Nhom10DbContext : DbContext
     {
         public Nhom10DbContext()
-            : base("name=Nhom10DbContext1")
+            : base("name=Nhom10DbContext")
         {
         }
 
+        public virtual DbSet<Permistion> Permistions { get; set; }
         public virtual DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
